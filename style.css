@@ -1,60 +1,205 @@
-*{
-    padding: 0;
-    margin: 0;
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
 }
-.main{
-    width: 100%;
- background-repeat: no-repeat;
-    background-image: url(/media/3ff47072a6baaab451dfbccf39c6b84b.jpg);
-    /* background-color: blueviolet; */
+::-webkit-scrollbar-track {
+  background: rgba(240, 248, 255, 0.1);
 }
-.sub-main1{
- display: flex;
- padding-top: 30px;
+::-webkit-scrollbar-thumb {
+  background: #a163f7;
 }
-.sub-main1-f1{
-    width: 20%;
-    
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    color: azure;
-    align-items: center;
-    justify-content: center;
+
+* {
+  padding: 0;
+  margin: 0;
 }
-.time{
-    font-size: 60px;
-    font-weight: 700;
+.main {
+  width: 100%;
+  /* height: 100%; */
+  background-repeat: no-repeat;
+  background-image: url(/media/3ff47072a6baaab451dfbccf39c6b84b.jpg);
 }
-.date{
-    font-size: 25px;
-    font-weight: 400;
+.sub-main1 {
+  display: flex;
+  padding-top: 10px;
 }
-.sub-main1-f2{
-    width: 80%;
-    display: flex;
-    margin-bottom: 30px;
-    justify-content: space-evenly;
+.sub-main1-f1 {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  align-items: center;
 }
-.box1{
-    display: flex;
-    width: 25%;
-    justify-content: space-between;
-    color: azure;
-    border: 1px solid yellow;
+.logo {
+  width: 80%;
+  padding-left: 2rem;
 }
-.box1-f1{
-    display: flex;
-    flex-direction: column;
+.time {
+  padding-left: 30px;
+  font-size: 40px;
+  font-weight: 700;
 }
-.box1-f2{
-    
-    padding: 5px 10px;
+.date {
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: 400;
 }
-.box2{
-        display: flex;
-        width: 15%;
-        color: azure;
-        padding: 5px 12% 5px 5px;
-    border: 1px solid purple;
+.sub-main1-f2 {
+  width: 90%;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.box1-1 {
+  display: flex;
+  width: 25%;
+}
+.box1 {
+  background-color: rgba(240, 255, 255, 0.1);
+  display: flex;
+  width: 25%;
+  position: relative;
+  justify-content: space-between;
+  color: azure;
+  border: 1px solid yellow;
+}
+.box1-img {
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+.box1-f1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.box1-f2 {
+  padding: 5px 10px;
+}
+.box1-h {
+  padding-top: 10px;
+  font-weight: 600;
+}
+.box1-p {
+  padding-top: 20px;
+  font-size: 12px;
+}
+.box1-p2 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.box2 {
+  background-color: rgba(240, 255, 255, 0.1);
+  display: flex;
+  width: 26%;
+  color: azure;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid purple;
+}
+.box3 {
+  width: 24%;
+  background-color: rgba(240, 255, 255, 0.1);
+  display: flex;
+  color: azure;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid purple;
+}
+.box2-p {
+  width: 100%;
+  font-size: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+.box2-p2 {
+  font-size: 10px;
+  padding-top: 15px;
+}
+.bonus {
+  background-color: blueviolet;
+  font-size: 12px;
+  padding: 3px 8px;
+  margin-left: 13rem;
+}
+.bonus1 {
+  background-color: yellow;
+  color: black;
+  font-size: 12px;
+  padding: 3px 8px;
+}
+.sub-main2 {
+  width: 77%;
+  margin-left: 12%;
+  display: flex;
+  color: aliceblue;
+  opacity: 21%;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.main3 {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  overflow: auto;
+}
+.pad {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.main3-sub2 {
+  width: 100%;
+}
+.sub2-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.img1 {
+  width: 5%;
+  padding-left: 10px;
+}
+.val {
+  padding-bottom: 5px;
+  width: 100%;
+  color: azure;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* justify-content: space-between; */
+  font-weight: 700;
+}
+.value {
+  background-color: rgba(240, 255, 255, 0.1);
+  font-size: 20px;
+  width: 80%;
+  display: flex;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+.pad1 {
+  font-size: 40px;
+  padding: 0 20px;
+}
+.img3 {
+  width: 30px;
+  display: flex;
+  position: absolute;
+  left: 4%;
+  top: 65%;
+}
+.img4 {
+  width: 20px;
+  display: flex;
+  position: absolute;
+  left: 9%;
+  top: 65%;
+}
+.img5 {
+  width: 20px;
+  display: flex;
+  position: absolute;
+  left: 9%;
+  top: 40%;
 }
